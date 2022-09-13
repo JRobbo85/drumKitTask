@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class = "titleBar">
+    The Extraordinary Magic Drum Kit!
+
+</div>
+
+
+
+<div class = "mainSection">
+<div class = "sidebar1"></div>
+
+
+    <div class = "drumPad">
+        <div class = "row">
+        <div class = "drumHolder">
+            <div class = "topBar">Boom (7)</div>
+            <image id = "pad7" src = "drumButton.png"></image>
+            <audio src="./sounds/boom.wav" id="boom"> </audio></div>
+        <div class = "drumHolder">
+            <div class = "topBar">Clap (8)</div>
+            <image id = "pad8" src = "drumButton.png"></image>
+            <audio src="./sounds/clap.wav" id="clap"> </audio></div>
+        <div class = "drumHolder">
+            <div class = "topBar">Hi-Hat (9)</div>
+            <image id = "pad9" src = "drumButton.png"></image>
+            <audio src="./sounds/hihat.wav" id="hihat"> </audio></div>
+        </div>
+
+        <div class = "row">
+            <div class = "drumHolder">
+                <div class = "topBar">Kick (4)</div>
+                <image id = "pad4" src = "drumButton.png"></image>
+                <audio src="./sounds/kick.wav" id="kick"> </audio></div>
+            <div class = "drumHolder">
+                <div class = "topBar">Open Hat (5)</div>
+                <image id = "pad5" src = "drumButton.png"></image>
+                <audio src="./sounds/openhat.wav" id="openhat"> </audio></div>
+            <div class = "drumHolder">
+                <div class = "topBar">Ride (6)</div>
+                <image id = "pad6" src = "drumButton.png"></image>
+                <audio src="./sounds/ride.wav" id="ride"> </audio></div>
+        </div>
+
+        <div class = "row">
+            <div class = "drumHolder">
+                <div class = "topBar">Snare (1)</div>
+                <image id = "pad1" src = "drumButton.png"></image>
+                <audio src="./sounds/snare.wav" id="snare"> </audio></div>
+            <div class = "drumHolder">
+                <div class = "topBar">Tink (2)</div>
+                <image id = "pad2" src = "drumButton.png"></image>
+                <audio src="./sounds/tink.wav" id="tink"> </audio></div>
+            <div class = "drumHolder">
+                <div class = "topBar">Tom (3)</div>
+                <image id = "pad3" src = "drumButton.png"></image>
+                <audio src="./sounds/tom.wav" id="tom"> </audio></div>
+        </div>
+    </div>
+    
+    <div class = "sidebar2"></div>
+</div>
+
+<footer id = "footBar">
+    <span id = "credits">Made by John Robertson - Git Repo <a href  = "https://github.com/JRobbo85" target="blank">HERE</a></span>
+    
+    <div class = "logos">
+    <a href="https://twitter.com/Sector_6_" target="blank"><img id = "twitter" src="twitter.png"></a>
+    <a href="https://www.youtube.com/c/Sector6UK/videos" target="blank"><img id = "yt" src="yt.jpg"></a>
+    <a href="https://www.linkedin.com/in/john-robertson-9a98a5156/" target="blank"><img id = "linkedIn" src="linkedin.png"></a>
+    </div>
+</footer>
+<script src = "app.js"></script>
+</body>
+</html>
