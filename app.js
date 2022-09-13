@@ -21,6 +21,7 @@ const hihat = document.getElementById("hihat")
 const pads = [pad1, pad2, pad3, pad4, pad5, pad6, pad7, pad8, pad9]
 const padSelector = pads
 
+const keyPressed = []
 
 padSelector.forEach(pads => {
   pads.addEventListener('mouseover', () => {
@@ -87,10 +88,26 @@ pad9.addEventListener('click', () =>{
 
 //Key Controls
 
+// const delayTimer = () => {
+//     timeoutID = 
+//   }
+
+
+
+// const delayedFunction = () => {
+//     pads.forEach = () => {
+//         pads.src="drumButton.png"
+//   }
+
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 49 || e.keyCode == 97) {
         snare.currentTime = 0 
         snare.play();
+        pads[0].src = "drumButtonHit.png"
+        setTimeout(function() {
+            pads[0].src="drumButton.png"
+        }, 200);
+        
     }
   });
 
@@ -98,6 +115,11 @@ document.addEventListener('keydown', function(e) {
     if (e.keyCode == 50 || e.keyCode == 98) {
         tink.currentTime = 0
         tink.play();
+        pads[1].src = "drumButtonHit.png"
+        setTimeout(function() {
+            pads[1].src="drumButton.png"
+        }, 200);
+        
     }
   });
 
@@ -105,6 +127,11 @@ document.addEventListener('keydown', function(e) {
     if (e.keyCode == 51 || e.keyCode == 99) {
         tom.currentTime = 0
         tom.play();
+        pads[2].src = "drumButtonHit.png"
+        setTimeout(function() {
+            pads[2].src="drumButton.png"
+        }, 200);
+        
     }
   });
 
@@ -112,6 +139,11 @@ document.addEventListener('keydown', function(e) {
     if (e.keyCode == 52 || e.keyCode == 100) {
         kick.currentTime = 0
         kick.play();
+        pads[3].src = "drumButtonHit.png"
+        setTimeout(function() {
+            pads[3].src="drumButton.png"
+        }, 200);
+        
     }
   });
 
@@ -119,6 +151,11 @@ document.addEventListener('keydown', function(e) {
     if (e.keyCode == 53 || e.keyCode == 101) {
         openHat.currentTime = 0
         openHat.play();
+        pads[4].src = "drumButtonHit.png"
+        setTimeout(function() {
+            pads[4].src="drumButton.png"
+        }, 200);
+        
     }
   });
 
@@ -126,6 +163,11 @@ document.addEventListener('keydown', function(e) {
     if (e.keyCode == 54 || e.keyCode == 102) {
         ride.currentTime = 0
         ride.play();
+        pads[5].src = "drumButtonHit.png"
+        setTimeout(function() {
+            pads[5].src="drumButton.png"
+        }, 200);
+        
     }
   });
 
@@ -133,6 +175,11 @@ document.addEventListener('keydown', function(e) {
     if (e.keyCode == 55 || e.keyCode == 103) {
         boom.currentTime = 0
         boom.play();
+        pads[6].src = "drumButtonHit.png"
+        setTimeout(function() {
+            pads[6].src="drumButton.png"
+        }, 200);
+        
     }
   });
 
@@ -140,6 +187,11 @@ document.addEventListener('keydown', function(e) {
     if (e.keyCode == 56 || e.keyCode == 104) {
         clap.currentTime = 0
         clap.play();
+        pads[7].src = "drumButtonHit.png"
+        setTimeout(function() {
+            pads[7].src="drumButton.png"
+        }, 200);
+        
     }
   });
 
@@ -147,5 +199,10 @@ document.addEventListener('keydown', function(e) {
     if (e.keyCode == 57 || e.keyCode == 105) {
         hihat.currentTime = 0
         hihat.play();
+        pads[8].src = "drumButtonHit.png"
+        setTimeout(function() {
+            pads[8].src="drumButton.png"
+        }, 200);
+        
     }
   });
