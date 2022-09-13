@@ -39,39 +39,48 @@ padSelector.forEach(pads => {
 //Click Controls
 
 pad1.addEventListener('click', () => {
-        snare.play()
+    snare.currentTime = 0    
+    snare.play()
     });
 
 pad2.addEventListener('click', () => {
+    tink.currentTime = 0
     tink.play()
 
 })
 
 pad3.addEventListener('click', () => {
+    tom.currentTime = 0 
     tom.play()
 })
 
 pad4.addEventListener('click', () => {
+    kick.currentTime = 0
     kick.play()
 })
 
 pad5.addEventListener('click', () => {
+    openHat.currentTime = 0
     openHat.play()
 })
 
 pad6.addEventListener('click', () => {
+    ride.currentTime = 0
     ride.play()
 })
 
 pad7.addEventListener('click', () => {
-    boom.play()
+    boom.currentTime = 0;
+    boom.play();
 })
 
 pad8.addEventListener('click', () => {
+    clap.currentTime = 0
     clap.play()
 })
 
 pad9.addEventListener('click', () =>{
+    hihat.currentTime = 0
     hihat.play()
 })
 
@@ -80,54 +89,63 @@ pad9.addEventListener('click', () =>{
 
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 49 || e.keyCode == 97) {
-     snare.play();
+        snare.currentTime = 0 
+        snare.play();
     }
   });
 
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 50 || e.keyCode == 98) {
-     tink.play();
+        tink.currentTime = 0
+        tink.play();
     }
   });
 
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 51 || e.keyCode == 99) {
-     tom.play();
+        tom.currentTime = 0
+        tom.play();
     }
   });
 
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 52 || e.keyCode == 100) {
-     kick.play();
+        kick.currentTime = 0
+        kick.play();
     }
   });
 
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 53 || e.keyCode == 101) {
-     openHat.play();
+        openHat.currentTime = 0
+        openHat.play();
     }
   });
 
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 54 || e.keyCode == 102) {
-     ride.play();
+        ride.currentTime = 0
+        ride.play();
     }
   });
 
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 55 || e.keyCode == 103) {
-     boom.play();
+        boom.currentTime = 0
+        boom.play();
     }
   });
 
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 56 || e.keyCode == 104) {
-     clap.play();
+        clap.currentTime = 0
+        clap.play();
     }
   });
 
 document.addEventListener('keydown', function(e) {
     if (e.keyCode == 57 || e.keyCode == 105) {
-     hihat.play();
+        hihat.currentTime = 0
+        hihat.play();
     }
   });
